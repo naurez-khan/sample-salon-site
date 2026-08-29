@@ -12,3 +12,4 @@
 .gallery-item.warm{background-image:linear-gradient(0deg,rgba(53,36,43,.35),transparent 50%),url('assets/bride-silver.png');background-size:cover;background-position:center 25%}
 .gallery-item.wide{background-image:linear-gradient(0deg,rgba(53,36,43,.4),transparent 55%),url('assets/salon-lounge.jpg');background-size:cover;background-position:center 48%}
 @media(max-width:620px){.hero-visual{min-height:340px;background:#100d0e}.portrait-main{background-size:cover,contain}}
+.floating-wa{width:58px;height:58px;padding:0;border-radius:50%;display:flex;align-items:center;justify-content:center;gap:0}.floating-wa span{display:none}.floating-wa .fa-whatsapp{font-size:27px;line-height:1;display:block;flex:none}
