@@ -5,11 +5,10 @@
 
 /* Authentic salon imagery supplied by the owner */
 .portrait-main{inset:0;background-color:#100d0e;background-image:linear-gradient(90deg,rgba(53,36,43,.08),transparent 45%),url('assets/nikhar-hero.jpg');background-size:cover,contain;background-position:center;background-repeat:no-repeat}
-.portrait-detail{background-image:linear-gradient(rgba(53,36,43,.08),rgba(53,36,43,.15)),url('assets/salon-lounge.jpg');background-size:cover;background-position:center}
-.bridal-photo{background-image:linear-gradient(90deg,rgba(53,36,43,.12),transparent 48%),url('assets/nikhar-bride-gold.jpg');background-size:cover;background-position:center 25%}
-.portrait-main:before,.portrait-detail:before,.bridal-photo:before,.gallery-item:before{display:none}
+.bridal-photo{background-image:linear-gradient(90deg,rgba(53,36,43,.12),transparent 48%),url('assets/nikhar-bride-closeup.jpg');background-size:cover;background-position:center 18%}
+.portrait-main:before,.bridal-photo:before,.gallery-item:before{display:none}
 .gallery-item.tall{background-image:linear-gradient(0deg,rgba(53,36,43,.38),transparent 45%),url('assets/nikhar-bride-full.jpg');background-size:cover;background-position:center top}
 .gallery-item:not(.tall):not(.warm):not(.wide){background-image:linear-gradient(0deg,rgba(53,36,43,.28),transparent 45%),url('assets/nikhar-bride-closeup.jpg');background-size:cover;background-position:center 20%}
 .gallery-item.warm{background-image:linear-gradient(0deg,rgba(53,36,43,.35),transparent 50%),url('assets/bride-silver.png');background-size:cover;background-position:center 25%}
 .gallery-item.wide{background-image:linear-gradient(0deg,rgba(53,36,43,.4),transparent 55%),url('assets/salon-lounge.jpg');background-size:cover;background-position:center 48%}
-@media(max-width:620px){.hero-visual{min-height:340px;background:#100d0e}.portrait-main{background-size:cover,contain}.portrait-detail{width:27%;height:38%;bottom:4%;border-width:6px}}
+@media(max-width:620px){.hero-visual{min-height:340px;background:#100d0e}.portrait-main{background-size:cover,contain}}
